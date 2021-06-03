@@ -71,7 +71,7 @@
 .menu-branding .portrait {
   width: 250px;
   height: 250px;
-  background: url("vishu.jpg");
+  background: url("https://ik.imagekit.io/sfatbd3jh/Vishal/vishu_gerUhfifF.jpg");
   border-radius: 50%;
   border: solid 3px #eece1a;
 }
@@ -131,7 +131,7 @@ body {
   /*overflow: hidden;*/
 }
 body#bg-img {
-  background: url(showcase.jpeg) no-repeat center center / cover;
+  background: url('https://ik.imagekit.io/sfatbd3jh/Vishal/showcase_3QCjWrZBo.jpeg') no-repeat center center / cover;
   background-attachment: fixed;
   background-size: cover;
   /*overflow: 'hidden';*/
