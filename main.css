@@ -71,7 +71,11 @@
 .menu-branding .portrait {
   width: 250px;
   height: 250px;
+<<<<<<< HEAD
   background: url("https://ik.imagekit.io/sfatbd3jh/Vishal/vishu_gerUhfifF.jpg");
+=======
+  background: url("vishu.jpg");
+>>>>>>> 1899f4fc7977af065658510f652e773394dc06a5
   border-radius: 50%;
   border: solid 3px #eece1a;
 }
@@ -131,7 +135,11 @@ body {
   /*overflow: hidden;*/
 }
 body#bg-img {
+<<<<<<< HEAD
   background: url('https://ik.imagekit.io/sfatbd3jh/Vishal/showcase_3QCjWrZBo.jpeg') no-repeat center center / cover;
+=======
+  background: url(showcase.jpeg) no-repeat center center / cover;
+>>>>>>> 1899f4fc7977af065658510f652e773394dc06a5
   background-attachment: fixed;
   background-size: cover;
   /*overflow: 'hidden';*/
