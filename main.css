@@ -71,7 +71,9 @@
 .menu-branding .portrait {
   width: 250px;
   height: 250px;
-  background: url("https://ik.imagekit.io/sfatbd3jh/Vishal/vishu_gerUhfifF.jpg");
+  background: url("https://ik.imagekit.io/sfatbd3jh/Vishal/vishal-1__C8wzHRRS.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658595126765");
+  background-position: center;
+  background-size: contain;
   border-radius: 50%;
   border: solid 3px #eece1a;
 }
@@ -131,7 +133,8 @@ body {
   /*overflow: hidden;*/
 }
 body#bg-img {
-  background: url('https://ik.imagekit.io/sfatbd3jh/Vishal/showcase_3QCjWrZBo.jpeg') no-repeat center center / cover;
+  background: url("https://ik.imagekit.io/sfatbd3jh/Vishal/showcase_3QCjWrZBo.jpeg") no-repeat
+    center center / cover;
   background-attachment: fixed;
   background-size: cover;
   /*overflow: 'hidden';*/
@@ -222,6 +225,9 @@ main#home h1 {
 .about-info .bio-image {
   grid-area: bioimage;
   margin: auto;
+  width: 400px;
+  background-position: center;
+  background-size: contain;
   border-radius: 50%;
   border: #eece1a 3px solid;
 }
@@ -356,7 +362,9 @@ main#home h1 {
     transform: translate3d(100%, 0, 0);
   }
   .menu-branding .portrait {
-    background: url("https://ik.imagekit.io/sfatbd3jh/Vishal/vishusmall_oLeoaRc9n.jpg");
+    background: url("https://ik.imagekit.io/sfatbd3jh/Vishal/vishal-1__C8wzHRRS.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658595126765");
+    background-position: center;
+    background-size: contain;
     width: 150px;
     height: 150px;
   }
@@ -406,11 +414,7 @@ main#home h1 {
 .rbtn span {
   background: rgb(255, 130, 130);
   /* background-color: #eece1a; */
-  background: linear-gradient(
-    to right,
-    rgb(255, 222, 130) 0%,
-    rgb(237, 202, 120) 100%
-  );
+  background: linear-gradient(to right, rgb(255, 222, 130) 0%, rgb(237, 202, 120) 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
